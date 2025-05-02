@@ -1,6 +1,6 @@
 # Athlete Wellness & Injury Risk Classification
 
-## 📘 Project Overview
+## Project Overview
 
 This project aims to analyze the relationship between **self-reported wellness scores** and **objective workload measures (ACWR: Acute:Chronic Workload Ratio)** to predict athlete health status. The motivation stems from the reality that athletes may feel ready to play, but physiological data often tells a different story. By using machine learning models, we assess whether athletes are truly healthy or at risk of injury — with the ultimate goal of improving injury prevention strategies.
 
@@ -8,7 +8,7 @@ We use real-world sports science data from the [SoccerMon dataset](https://zenod
 
 ---
 
-## 💾 Dataset
+## Dataset
 
 We use the SoccerMon dataset, which includes:
 - 33,849 subjective wellness records (sleep quality, soreness, readiness, etc.)
@@ -19,9 +19,9 @@ Reference: [Nature Scientific Data Paper](https://www.nature.com/articles/s41597
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
-### 🔧 How to Run The Project
+### How to Run The Project
 Open the Athlete_Analysis.ipynb notebook in Jupyter Notebook or Google Colab.
 
 If using Colab, mount Google Drive to access the CSV files using:
@@ -46,7 +46,7 @@ Train and evaluate classification models
 
 Generate visualizations (confusion matrix, percent correct per class, correlation heatmap)
 
-## 🤖 Machine Learning Tasks
+## Machine Learning Tasks
 # Classification Task
 We trained several binary classification models to predict athlete health status (healthy = 1, at-risk = 0) based on:
 
